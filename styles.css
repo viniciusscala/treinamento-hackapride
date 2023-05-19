@@ -1,0 +1,16 @@
+.meu-nome {
+    color: red;
+    font-size: 200px;
+}
+
+body {
+    height: 100vh;
+    background-color: #3E215A;
+    margin: 24px;
+}
+
+.container {
+    background-color: #FBF0E7;
+    height: 100%;
+    width: 100%;
+}
