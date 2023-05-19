@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(./Poppins/Poppins-Light.ttf) format('truetype');
+}
+
 .meu-nome {
     color: red;
     font-size: 200px;
@@ -13,4 +18,40 @@ body {
     background-color: #FBF0E7;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    background-color: #3E215A;
+    border-radius: 8px;
+    padding: 22px;
+    max-width: 434px;
+    margin-left: 65px;
+}
+
+.divider {
+    height: 2px;
+    background-color: #FBF0E7;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+p {
+    color: #FBF0E7;
+    /* width: 100px; */
+    font-family: 'Poppins-Light';
+}
+
+.povo-animado {
+    width: 100%;
+}
+
+.pride-photo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 90%;
 }
